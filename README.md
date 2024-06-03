@@ -12,8 +12,11 @@ This script exploits a remote command execution vulnerability in osCommerce 2.3.
 
 ## Usage
 
-1.Clone the repository: `git clone https://github.com/Hackhoven/osCommerce-2.3.4-RCE.git`
-                        `cd osCommerce-2.3.4-RCE\`
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Hackhoven/osCommerce-2.3.4-RCE.git
+   cd osCommerce-2.3.4-RCE/
+   ```
 2. Run the script:   `python3 osCommerce2_3_4_RCE.py http://CHANGE-IP/oscommerce-2.3.4/catalog`
 Note: You have to change the IP address.
 
